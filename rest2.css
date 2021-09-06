@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    height: 110vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('candy.jpg');
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+    width: 25%;
+    text-align: center;
+}
+.menu{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    width: 25%;
+}
+.container{
+    margin-top: 120px;
+}
+.menulist{
+    background-color:#fcd5ce;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight:50px;
+    font-size: larger;
+}
+.menulist img{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.last{
+    background-color:#d8e2dc ;
+}
+@media(max-width:780px)
+{
+    .right-box{
+        margin-top: 20px;
+    }
+}
+
+.last img{
+    width: 1px;
+    height: 1px;
+    object-fit: contain;
+   
+}
